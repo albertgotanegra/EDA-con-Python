@@ -30,3 +30,8 @@ INTEGRACIÓN DE TABLAS
 Como se tienen 3 tablas con la misma información correspondiente a 3 años distintos estas tablas se apilaran verticalmente con pd.concat.
 Una vez tengamos la unión de estas 3, se uniran a la tabla relacionada con la información adicional mediante la columna de ID con la función pd.merge.
 Nos encontramos que debemos cambiar el nombre de la columna de ID_ a ID, por ello utilizamos la formula df_csv = df_csv.rename(columns={'ID_': 'ID'}).
+
+ANÁLISIS
+
+Instalamos matplotlib y seaborn para generar visualizaciones claras.
+Se usa la funcion .describe() para obtener promedios, mínimos, máximos y cuartiles de todas las columnas numéricas.
